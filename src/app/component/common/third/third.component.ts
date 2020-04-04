@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {MessageService} from '../../service/message.service';
+import {MessageService} from '../../../service/message.service';
 
 @Component({
   selector: 'app-third',
@@ -10,7 +10,7 @@ export class ThirdComponent implements OnInit {
   message: string;
 
   constructor(private messageService: MessageService) {
-    this.message = 'alap szöveg nem történt még semmi';
+    this.message = 'alap szöveg nem történt még semmi, subject nem jött át';
   }
 
   ngOnInit(): void {

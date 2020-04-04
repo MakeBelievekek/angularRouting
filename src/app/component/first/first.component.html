@@ -1,4 +1,9 @@
-<p>{{this.message}}</p>
-<button [routerLink]="['/second']" (click)="onNext()">Second</button>
+
+<h5>Egyes componens</h5>
 <br>
-<button [routerLink]="['/third']" (click)="sendSubject()">third whit subject</button>
+<p>{{this.message}}</p>
+<button [routerLink]="['/second']" (click)="onNext()">Second component</button>
+<br>
+<button [routerLink]="['/third']" (click)="sendSubject()">Third stand alone subject</button>
+<br>
+<button [routerLink]="['/common']" (click)="sendSubject()">Third and Forth existing at teh same time</button>
