@@ -16,6 +16,6 @@ export class FourComponent implements OnInit {
 
 
   sendSubject() {
-    this.messageService.setSubjectMessage('ez ment a négyesből, egyszere léteznek!!!')
+    this.messageService.setSubjectMessage('ez ment a négyesből, egyszere léteznek!!!');
   }
 }
